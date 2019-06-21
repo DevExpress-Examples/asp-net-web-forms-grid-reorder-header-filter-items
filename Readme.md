@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to sort header filter items in the descending order
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4966/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how to change the header filter items order. </p><p>The idea is to handle the  ASPxGridView.HeaderFilterFillItems event and use the e.Values property that has the OrderByDescending method allowing you to change the order of items in the collection. <br />
