@@ -11,7 +11,7 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
-    protected void ASPxGridView1_HeaderFilterFillItems(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewHeaderFilterEventArgs e)
+    protected void ASPxGridView1_HeaderFilterFillItems(object sender, DevExpress.Web.ASPxGridViewHeaderFilterEventArgs e)
     {
         if (e.Column.FieldName == "CategoryName") {
             var orderedList = e.Values.OrderByDescending(x => x.DisplayText, new MyComparer()).ToList();

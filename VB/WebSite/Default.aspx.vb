@@ -11,7 +11,7 @@ Partial Public Class _Default
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 	End Sub
-	Protected Sub ASPxGridView1_HeaderFilterFillItems(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewHeaderFilterEventArgs)
+	Protected Sub ASPxGridView1_HeaderFilterFillItems(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewHeaderFilterEventArgs)
 		If e.Column.FieldName = "CategoryName" Then
 			Dim orderedList = e.Values.OrderByDescending(Function(x) x.DisplayText, New MyComparer()).ToList()
 			e.Values.Clear()
