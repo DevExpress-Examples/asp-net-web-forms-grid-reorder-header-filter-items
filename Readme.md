@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4966/)**
 <!-- run online end -->
 
-This example demonstrates how to order of items in the header filter. Handle the [HeaderFilterFillItems](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HeaderFilterFillItems) event and use the [e.Values](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridHeaderFilterEventArgs.Values) property to rearrange filter values.
+This example demonstrates how to change item order in the header filter. Handle the [HeaderFilterFillItems](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HeaderFilterFillItems) event and use the [e.Values](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridHeaderFilterEventArgs.Values) property to rearrange filter values.
 
 ![](grid-header-filter-with-descending-order.png)
 
