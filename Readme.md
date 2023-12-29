@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Grid View for ASP.NET Web Forms - How to sort header filter items in descending order
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128535819/)**
-<!-- run online end -->
 
 This example demonstrates how to change the item order in the header filter. Handle the [HeaderFilterFillItems](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HeaderFilterFillItems) event and use the [e.Values](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridHeaderFilterEventArgs.Values) property to rearrange filter values.
 
